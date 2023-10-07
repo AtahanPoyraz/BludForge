@@ -83,8 +83,6 @@ python main.py --m <MOD: FTP/TELNET/SSH>
         mod = str(argv[2]).upper()
         Main(mod).run()
 
-
-
 if __name__ == "__main__":
     start(argv=sys.argv)
         
