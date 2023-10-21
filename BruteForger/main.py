@@ -6,7 +6,6 @@ from mod.ssh import SSH_BRUTEFORCE
 from mod.ftp import FTP_BRUTEFORCE
 from mod.telnet import TELNET_BRUTEFORCE
 
-
 class Main:
     def __init__(self, mod):
         self.mod = mod
@@ -111,8 +110,5 @@ python main.py --m <MOD: FTP/TELNET/SSH>
         mod = str(argv[2]).upper()
         Main(mod).run()
 
-
-
 if __name__ == "__main__":
     start(argv=sys.argv)
-        
